@@ -1,0 +1,73 @@
+<html>
+ <head>
+    <meta charset="UTF-8"/>
+    <title>Meu HTML</title>
+ </head>
+ <body>
+  <fieldset>      
+  <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+    <p>
+     <label for = "nome"> Nome: </label > 
+     <input type="text" id="nome" name="nome"/> 
+    </p>
+
+    <p> 
+      <label for = "email"> E-mail: </label> 
+      <input type="text" id = "email" name = "email"/> 
+    </p>
+
+    <p>
+         <label> Disponibilidade: </label>
+         <label for= "manha">Manhã</label>
+         <input type="checkbox" id = "manha" nome = "Disponibilidade" value="M">
+         <label for= "tarde">Tarde</label>
+         <input type="checkbox" id = "tarde" nome = "Disponibilidade" value="T">
+         <label for= "noite">Noite</label>
+         <input type="checkbox" id = "noite" nome = "Disponibilidade" value="N">
+         
+    </p>
+
+    <p>
+         <label for = "pcd"> PCD </label>
+         <input type="checkbox" id = "pcd" name = "pcd" /> 
+    </p>
+
+    <p>
+         <label for = "bolsista"> Bolsista: </label>
+         <input type="radio" id = "bolsista" name = "status" value="bolsita"/>
+         <label for = "voluntario"> Voluntario: </label>
+         <input type="radio" id = "voluntario" name = "status" value="voluntario"/>
+    </p>  
+
+    <p>
+         <label for = "orientador">orientador:</label>
+         <select id = "orientador" name="orientador">
+              <option value="001">Marum</option>
+              <option value="002">Sales</option>
+              <option value="003">Vitor</option>
+              <option value="004">Eduardo</option>
+              <option value="005">Alex</option>
+              <option value="006">Roberio</option>
+         </select>    
+    </p>
+    
+    <p>
+         <label for="temas">Temas:</label>
+         <select id = "temas" name="temas" multiple= "multiple">
+               <option >Redes de Computadores</option>
+               <option >Sistemas Distribuidos</option>
+               <option>Computação Movel</option>
+               <option >Otimização e Combinatoria</option>
+               <option >Bancos de Dados</option>
+               <option >Analise de Dados</option>
+               <option >Inteligencia Artificial</option>
+
+          </select>
+    </p>     
+      
+    
+      <input type = "submit" value="Enviar">
+ </form>
+ </fieldset>    
+ </body>
+</html>
