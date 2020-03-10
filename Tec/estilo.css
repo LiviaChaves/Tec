@@ -1,0 +1,18 @@
+ /*seletor de elemento*/
+            
+ p{
+    background: darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*seletor de classe*/
+.destaque{
+    background: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center
+}
+/*seletor de id*/
+#ultimo{
+    background: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
